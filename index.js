@@ -16,12 +16,25 @@
 //     return total;
 // }
 
-function squareSum(numbers)
-{ 
-  var totalSum = 0;
-  for (i=0;i<numbers.length;i++)
-  {
-    totalSum += Math.pow(numbers[i], 2);
-  }
-  return totalSum;
-}
+// function squareSum(numbers)
+// { 
+//   var totalSum = 0;
+//   for (i=0;i<numbers.length;i++)
+//   {
+//     totalSum += Math.pow(numbers[i], 2);
+//   }
+//   return totalSum;
+// }
+
+// function booleanToString(b){
+//   if (b === true ) {
+//     return 'true'
+//   } else if (b === false) {
+//     return 'false'
+//   }
+//   return b;
+// }
+
+// function makeUpperCase(str) {
+//   return str.toUpperCase()
+// }
