@@ -38,3 +38,54 @@
 // function makeUpperCase(str) {
 //   return str.toUpperCase()
 // }
+
+// function countSheeps(arrayOfSheep) {
+//     let counter = 0
+//     for(let i = 0; i < arrayOfSheep.length; i++) {
+//         if(arrayOfSheep[i]) counter += 1
+//     }
+//     return counter
+// }
+
+// function past(h, m, s){
+//     return ((h*3600)+(m*60)+s)*1000;
+//   }
+
+
+// function check(a, x) {
+//     if (a.includes (x)) {
+//         return true 
+//     }else{
+//         return false
+//     }
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
