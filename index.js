@@ -60,9 +60,26 @@
 //     }
 // };
 
+// function findUniq(arr) {
+//   arr.sort((a,b)=>a-b);
+//   return arr[0]==arr[1]?arr.pop():arr[0]
+// }
 
-
-
+// function printerError(s) {
+//     if(s==null){
+//         return error;  
+//         }else{
+//          if (s.match(/[^a-m]/gi)==null){
+//            var err = 0;
+//          }else {
+//            var err = s.match(/[^a-m]/gi).length
+//          }
+//           var len = s.length;
+//           var res = err + '/' + len;
+//           return res;
+//         }
+      
+//     }
 
 
 
