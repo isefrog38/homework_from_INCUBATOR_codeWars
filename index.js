@@ -65,7 +65,7 @@
 //   return arr[0]==arr[1]?arr.pop():arr[0]
 // }
 
-// function printerError(s) {
+// function printerError(s) { //or return s.match(/[^a-m]/g).length + "/" + s.length; in 1 string
 //     if(s==null){
 //         return error;  
 //         }else{
