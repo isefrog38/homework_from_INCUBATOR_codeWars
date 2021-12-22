@@ -90,7 +90,27 @@
 //     return count;
 //   }
 
+// function isValidWalk(walk) {
+//   var position = walk.reduce(function(sum, sign){
+//     switch(sign){
+//       case 'n': return ++sum; break
+//       case 's': return --sum; break
+//       case 'w': return sum+10; break
+//       case 'e': return sum-10; break
+//     }
+//   }, 0);
+//   return walk.length === 10 && position === 0;
+// }
 
+// function humanReadable(seconds) {
+//     var hours = seconds / 3600, minutes = seconds / 60 % 60, newSeconds = seconds %  60 ;
+//     return formatDate(hours) +':' + formatDate(minutes)+':'+formatDate(newSeconds)
+//   }
+  
+//   function formatDate(n){
+//     var number = Number.parseInt(n)
+//     return number > 9? number : '0'+number;
+//   }
 
 
 
