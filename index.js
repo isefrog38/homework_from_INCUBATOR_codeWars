@@ -114,10 +114,22 @@
 
 
 
+// function mxdiflg(a1, a2) {
+//     if(!a1.length||!a2.length)return -1;
+//      a1.sort((a,b)=>a.length-b.length);
+//      a2.sort((a,b)=>a.length-b.length)
+//      return Math.max(Math.abs(a1[0].length-a2[a2.length-1].length),Math.abs(a2[0].length-a1[a1.length-1].length));
+//    }
 
 
-
-
+// function getMiddle(s){
+   
+//     let evenOdd = s.length % 2 === 0
+//     let minMid = s.charAt(s.length/2-1)
+//     let mid = s.charAt(s.length/2)
+    
+//     return (evenOdd == true)? minMid.concat(mid): mid
+//   }
 
 
 
