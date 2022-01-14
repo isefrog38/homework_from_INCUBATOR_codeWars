@@ -131,15 +131,41 @@
 //     return (evenOdd == true)? minMid.concat(mid): mid
 //   }
 
+/*function reverseWords(str) {
+    return str.split("").reverse().join("").split(" ").reverse().join(" ")
+}*/
+
+/*
+const capitals = word => word.split('')
+    .map((letter, idx) => letter === letter.toUpperCase() ? idx : false)
+    .filter(num => Number.isInteger(num));
+*/
 
 
+/*let gimme = function (inputArray) {
+    let clonedArray = inputArray.slice(0);
+    clonedArray.sort(function(a, b){
+        return a-b
+    });
+    return inputArray.indexOf(clonedArray[1]);
+};*/
 
+/*
+let number=function(array){
+    const resultArr = [];
 
+    for (let i = 0, j = 1; i < array.length; i += 1) {
+        if (array.length === 0) {
+            return `Empty array should return empty array`;
+        } else {
+            resultArr.push(`${j}: ${array[i]}`);
+            j += 1;
+        }
+    }
 
-
-
-
-
+    return resultArr;
+}
+*/
 
 
 
