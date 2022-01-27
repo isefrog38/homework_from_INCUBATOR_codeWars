@@ -168,5 +168,16 @@ let number=function(array){
 */
 
 
+/*
+function  lovefunc(flower1, flower2) {
+    return flower1 % 2 !== flower2 % 2
+}
 
+console.log(lovefunc(10,8))
+*/
+/*
+const digitize = (n) => {
+ return n.toString().split('').reverse().map(Number)
+}
 
+console.log(digitize(12343424))*/
