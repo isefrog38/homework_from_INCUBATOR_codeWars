@@ -181,3 +181,17 @@ const digitize = (n) => {
 }
 
 console.log(digitize(12343424))*/
+
+
+/*
+String.prototype.toJadenCase = function () {
+    return this.split(' ').
+    map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+};*/
+
+
+/*function removeExclamationMarks(s) {
+    return s.split("").filter(e => e.toLowerCase()!="!").join("");
+}
+
+console.log(removeExclamationMarks("BAZA ! YA TUT!"))*/
