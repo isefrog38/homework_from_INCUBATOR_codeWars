@@ -195,3 +195,13 @@ String.prototype.toJadenCase = function () {
 }
 
 console.log(removeExclamationMarks("BAZA ! YA TUT!"))*/
+
+
+/*
+function filter_list(l) {
+return l.filter(v => typeof v == "number")
+}
+*/
+
+/*
+function even_or_odd(number) {return number % 2 ? "Odd" : "Even"}*/
