@@ -205,3 +205,17 @@ return l.filter(v => typeof v == "number")
 
 /*
 function even_or_odd(number) {return number % 2 ? "Odd" : "Even"}*/
+
+
+
+
+
+/*const smash = (words) => {return words.join(" ")};*/
+
+
+/*
+
+function basicOp(operation, value1, value2){
+    return eval(value1+operation+value2)
+}
+*/
