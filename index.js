@@ -214,8 +214,58 @@ function even_or_odd(number) {return number % 2 ? "Odd" : "Even"}*/
 
 
 /*
-
+// оператор , число, число , в зависимости от переданных параметров произвести вычисление
 function basicOp(operation, value1, value2){
     return eval(value1+operation+value2)
 }
 */
+
+//все числа отрицательные
+/*function makeNegative(num) {
+   return num < 0 ? num : -num
+}*/
+
+
+// сумма самых маленьких чисел в массиве
+/*
+function sumTwoSmallestNumbers(numbers) {
+    let arr = numbers.sort((a, b) => a > b ? 1 : -1);
+    let res = Number(arr.slice(0, 1)) + Number(arr.slice(1, 2))
+    return res
+}
+*/
+
+
+
+
+
+// камень ножницы бумага
+/*const rps = (p1, p2) => {
+    if (p1 === "rock" && p2 === "scissors") {
+        return win = `Player ${1} won!`
+    } else if (p1 === "scissors" && p2 === "paper") {
+        return win = `Player ${1} won!`
+    } else if (p1 === "paper" && p2 === "rock") {
+        return win = `Player ${1} won!`
+    } else if (p2 === "rock" && p1 === "scissors") {
+        return win = `Player ${2} won!`
+    } else if (p2 === "scissors" && p1 === "paper") {
+        return win = `Player ${2} won!`
+    } else if (p2 === "paper" && p1 === "rock") {
+        return win = `Player ${2} won!`
+    } else {
+        return notWinner = `Draw!`
+    }
+};
+const rps2 = (p1, p2) => {
+    if (p1 === p2) return 'Draw!';
+    if (p1 === 'rock' && p2 === 'scissors') return 'Player 1 won!';
+    if (p1 === 'scissors' && p2 === 'paper') return 'Player 1 won!';
+    if (p1 === 'paper' && p2 === 'rock') return 'Player 1 won!';
+    return 'Player 2 won!';
+};*/
+
+
+var countSheep = function (num){
+    //your code here
+}
