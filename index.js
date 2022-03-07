@@ -266,6 +266,33 @@ const rps2 = (p1, p2) => {
 };*/
 
 
+/*
+// число после которого нужно считать овец
 var countSheep = function (num){
-    //your code here
+    let str = "";
+    for (let i = 1; i <= num; i++) {str += `${i} sheep...`; }
+    return str
+}*/
+
+
+// если булевое правда вернуть да , в обратном случае нет
+/*
+function boolToWord( bool ){
+    return bool ? "Yes" : "No"
+}*/
+
+
+
+//Создайте функцию с двумя аргументами, которая будет возвращать массив первых (n) кратных (x).
+/*
+function countBy(x, n) {
+    let z = [];
+    for (let i = 1; i <= n; i++ ) {
+        let y = x * i;
+        z.push(y)
+    }
+    return z;
 }
+
+console.log(countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]);
+console.log(countBy(2,5) === [2,4,6,8,10])*/
