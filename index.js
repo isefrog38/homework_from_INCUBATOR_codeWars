@@ -296,3 +296,17 @@ function countBy(x, n) {
 
 console.log(countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]);
 console.log(countBy(2,5) === [2,4,6,8,10])*/
+
+
+
+
+
+// revers words
+/*
+function reverseWords(str) {
+    console.log(str.split("").reverse().join("").split(" ").reverse())
+    return str.split("").reverse().join("").split(" ").reverse().join(" ")
+}
+
+
+console.log(reverseWords("pavel good man"))*/
