@@ -310,3 +310,45 @@ function reverseWords(str) {
 
 
 console.log(reverseWords("pavel good man"))*/
+
+
+
+/*
+function multiply(a, b){
+    return a * b
+}
+*/
+
+
+/*function numberToString(num) {return `${num}`}*/
+
+
+
+/*function basicOp(operation, value1, value2){
+    if (operation === '+') return value1 + value2
+    if (operation === '-') return value1 - value2
+    if (operation === '*') return value1 * value2
+    if (operation === '/') return value1 / value2
+}*/
+
+
+/*
+/!*
+[]                                -->  "no one likes this"
+    ["Peter"]                         -->  "Peter likes this"
+    ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+    ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+    ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"*!/
+function likes(arr) {
+    if (arr.length === 0) return `no one likes this`;
+    if (arr.length === 1) return `${arr[0]} likes this`;
+    if (arr.length === 2) return `${arr[0]} and ${arr[1]} like this`;
+    if (arr.length === 3) return `${arr[0]}, ${arr[1]} and ${arr[2]} like this`;
+    if (arr.length >= 4) return `${arr[0]}, ${arr[1]} and ${arr.length - 2} others like this`;
+}
+
+console.log(likes([]))
+console.log(likes(["Peter"]))
+console.log(likes(["Jacob", "Alex"]))
+console.log(likes(["Max", "John", "Mark"] ))
+console.log(likes(["Alex", "Jacob", "Mark", "Max"]))*/
