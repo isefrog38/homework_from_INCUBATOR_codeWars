@@ -352,3 +352,40 @@ console.log(likes(["Peter"]))
 console.log(likes(["Jacob", "Alex"]))
 console.log(likes(["Max", "John", "Mark"] ))
 console.log(likes(["Alex", "Jacob", "Mark", "Max"]))*/
+
+
+/*
+/// Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+function pigIt(str){
+    return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
+}
+
+*/
+
+
+
+/*
+function add(a, b) {
+    if (a.length > 20 || b.length > 20 ) {
+        return (Number(BigInt(a)) + Number(BigInt(b))).toString()
+    }
+    return (Number(a) + Number(b)).toString();
+}
+
+console.log(add('63829983432984289347293874', "90938498237058927340892374089"))
+
+*/
+
+
+
+/// validate password
+//
+// At least six characters long
+// contains a lowercase letter
+// contains an uppercase letter
+// contains a number
+
+/*
+function validate(password) {
+    return /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[A-Za-z0-9]{6,}$/.test(password);
+}*/
