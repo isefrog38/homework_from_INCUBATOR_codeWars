@@ -78,7 +78,7 @@
 //           var res = err + '/' + len;
 //           return res;
 //         }
-      
+
 //     }
 
 
@@ -106,12 +106,11 @@
 //     var hours = seconds / 3600, minutes = seconds / 60 % 60, newSeconds = seconds %  60 ;
 //     return formatDate(hours) +':' + formatDate(minutes)+':'+formatDate(newSeconds)
 //   }
-  
+
 //   function formatDate(n){
 //     var number = Number.parseInt(n)
 //     return number > 9? number : '0'+number;
 //   }
-
 
 
 // function mxdiflg(a1, a2) {
@@ -123,11 +122,11 @@
 
 
 // function getMiddle(s){
-   
+
 //     let evenOdd = s.length % 2 === 0
 //     let minMid = s.charAt(s.length/2-1)
 //     let mid = s.charAt(s.length/2)
-    
+
 //     return (evenOdd == true)? minMid.concat(mid): mid
 //   }
 
@@ -207,9 +206,6 @@ return l.filter(v => typeof v == "number")
 function even_or_odd(number) {return number % 2 ? "Odd" : "Even"}*/
 
 
-
-
-
 /*const smash = (words) => {return words.join(" ")};*/
 
 
@@ -234,9 +230,6 @@ function sumTwoSmallestNumbers(numbers) {
     return res
 }
 */
-
-
-
 
 
 // камень ножницы бумага
@@ -282,7 +275,6 @@ function boolToWord( bool ){
 }*/
 
 
-
 //Создайте функцию с двумя аргументами, которая будет возвращать массив первых (n) кратных (x).
 /*
 function countBy(x, n) {
@@ -298,9 +290,6 @@ console.log(countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]);
 console.log(countBy(2,5) === [2,4,6,8,10])*/
 
 
-
-
-
 // revers words
 /*
 function reverseWords(str) {
@@ -312,7 +301,6 @@ function reverseWords(str) {
 console.log(reverseWords("pavel good man"))*/
 
 
-
 /*
 function multiply(a, b){
     return a * b
@@ -321,7 +309,6 @@ function multiply(a, b){
 
 
 /*function numberToString(num) {return `${num}`}*/
-
 
 
 /*function basicOp(operation, value1, value2){
@@ -363,7 +350,6 @@ function pigIt(str){
 */
 
 
-
 /*
 function add(a, b) {
     if (a.length > 20 || b.length > 20 ) {
@@ -377,7 +363,6 @@ console.log(add('63829983432984289347293874', "90938498237058927340892374089"))
 */
 
 
-
 /// validate password
 //
 // At least six characters long
@@ -389,3 +374,15 @@ console.log(add('63829983432984289347293874', "90938498237058927340892374089"))
 function validate(password) {
     return /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[A-Za-z0-9]{6,}$/.test(password);
 }*/
+
+
+/*
+function generateHashtag(str) {
+  return str.length > 140 || str === '' ? false :
+    '#' + str.split(' ').map(el => el.charAt(0).toUpperCase() + el.slice(1)).join('');
+}
+
+console.log(generateHashtag(" Hello there thanks for trying my Kata"))
+console.log(generateHashtag("code" + " " + "wars"))
+
+*/
